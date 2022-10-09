@@ -16,10 +16,19 @@
         android:id="@+id/profile_layout"
         android:layout_above="@+id/bottom_navigation" >
 
+        <ImageView
+            android:layout_marginTop="60dp"
+            android:id="@+id/imv_user_profile_photo"
+            android:layout_width="125dp"
+            android:layout_height="125dp"
+            android:src="@drawable/jake_heyser_profile"
+            android:layout_gravity="center_horizontal" >
+        </ImageView>
+
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginTop="60dp"
+            android:layout_marginTop="40dp"
             android:id="@+id/tv_first_name"
             android:textSize="20sp" >
         </TextView>
@@ -28,6 +37,14 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:id="@+id/tv_last_name"
+            android:layout_marginTop="15dp"
+            android:textSize="20sp" >
+        </TextView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/tv_major"
             android:layout_marginTop="15dp"
             android:textSize="20sp" >
         </TextView>
