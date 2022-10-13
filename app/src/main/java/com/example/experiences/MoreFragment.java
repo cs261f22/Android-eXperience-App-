@@ -22,7 +22,7 @@ public class MoreFragment extends Fragment {
     }
 
     protected void moreFragmentInitialization() {
-        String[] userOptions = {"Profile Settings", "Notification Settings", "App Updates"};
+        String[] userOptions = {"Profile Settings", "Notification Settings","Settings", "Privacy","Help & FeedBack", "About","Logout"};
         ArrayAdapter arrayAdapter = new ArrayAdapter(getActivity(), R.layout.list_view_item, userOptions);
         listView.setAdapter(arrayAdapter);
     }
